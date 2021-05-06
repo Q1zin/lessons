@@ -4,17 +4,13 @@ var mainList = {
   budget: yourBudget,
   nameStore: nameStore,
   shopGoods: [],
-  employers: {
-
-  },
+  employers: {},
   open
 } 
 
 mainList.shopGoods.push(prompt("Какой тип товаров будем продавать?"));
 mainList.shopGoods.push(prompt("Какой тип товаров будем продавать?"));
 mainList.shopGoods.push(prompt("Какой тип товаров будем продавать?"));
-// mainList.shopGoods.push() += prompt("Какой тип товаров будем продавать?");
-// mainList.shopGoods.push() += prompt("Какой тип товаров будем продавать?");
 
 alert("бюджет на 1 день: " + mainList.budget / 30); 
 
